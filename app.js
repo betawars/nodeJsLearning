@@ -1,5 +1,6 @@
 let a = 10
-const sum = require("./sum");
+const {calculateSum, calculateMultiply} = require("./calculate");
+const util = require("node:util");
 
 
-console.log(sum(5,5)); 
+console.log(calculateSum(5,5)); 
